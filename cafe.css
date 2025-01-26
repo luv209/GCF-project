@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #000;
+    background-image: url();
+    background-position: 100%;
+}
+
+
+.hero-section {
+    background: url('your-image-url.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+
+.navbar .contact-number p {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.hero-content {
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.hero-content .menu-button {
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.hero-content .menu-button:hover {
+    background-color: darkorange;
+    opacity: 0.9;
+}

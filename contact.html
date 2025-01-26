@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madu Restaurant - Contact</title>
+    <link rel="stylesheet" href="cafe.css"> 
+    <style>
+        .contact-section {
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #f4f4f4; 
+            color: #333;
+        }
+
+        .contact-details {
+            max-width: 40%;
+            line-height: 1.8;
+        }
+
+        .contact-details h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: orange;
+        }
+
+        .contact-details p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .contact-details .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .contact-form {
+            max-width: 50%;
+            padding: 20px;
+            background: #747274; /* Match your screenshot */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        .contact-form button {
+            background: orange;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .contact-form button:hover {
+            background: darkorange;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero" style="height: auto; background: #333;">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Madu Restaurant</div>
+                <ul class="nav-links">
+                    <li><a href="cafe website.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html" style="color: orange;">Contact</a></li>
+                </ul>
+                <div class="phone">+91 2121212121</div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-section">
+        <div class="contact-details">
+            <h2>Contact</h2>
+            <p><strong>Address:</strong> At Hayat Palace, </p>
+            <p><strong>Email:</strong> madurestraunt@gmail.com</p>
+            <p><strong>Phone:</strong> +91 2121212121</p>
+            <div class="social-icons">
+                <a href="https://facebook.com"><img src="https://th.bing.com/th/id/OIP.K61w8tCEKaKN--vUwjeSSwHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Facebook"></a>
+                <a href="https://instagram.com"><img src="http://ts4.mm.bing.net/th?id=OIP.5RwXPrWqv58MznvrOo3_xAHaHw&pid=15.1" alt="Instagram"></a>
+                <a href="https://twitter.com"><img src="https://c8.alamy.com/comp/2REA7DG/twitter-new-icon-vector-logo-isolated-on-transparent-background-2REA7DG.jpg" alt="Twitter"></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Type Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022 | MaduWebTech</p>
+    </footer>
+</body>
+</html>

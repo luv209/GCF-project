@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #1c1a1a;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: orange;
+}
+
+.phone {
+    background: #111;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-category {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.category-title {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 18px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #555;
+}
